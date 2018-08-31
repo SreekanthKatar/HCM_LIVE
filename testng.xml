@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="HCM Live Suite" verbose="1">
+
+	<listeners>
+		<listener class-name="com.livehcm.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+	<test name="LoginPageTest">
+		<classes>
+			<class name="com.livehcm.testscripts.LoginPageTest">
+				<methods>
+					<exclude name="Login"></exclude>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="HomePageTest">
+		<classes>
+			<class name="com.livehcm.testscripts.HomePageTest" />
+		</classes>
+	</test>
+</suite>

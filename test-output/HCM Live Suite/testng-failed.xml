@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [HCM Live Suite]">
+  <listeners>
+    <listener class-name="com.livehcm.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="LoginPageTest(failed)">
+    <classes>
+      <class name="com.livehcm.testscripts.LoginPageTest">
+        <methods>
+          <include name="ValidateLoginPageTitle"/>
+          <include name="ValidateLoginPagePhoneLogo"/>
+          <include name="SetUp"/>
+          <include name="tearDown"/>
+          <include name="ValidateLoginPageURL"/>
+        </methods>
+      </class> <!-- com.livehcm.testscripts.LoginPageTest -->
+    </classes>
+  </test> <!-- LoginPageTest(failed) -->
+  <test thread-count="5" name="HomePageTest(failed)">
+    <classes>
+      <class name="com.livehcm.testscripts.HomePageTest">
+        <methods>
+          <include name="ValidateHomePageTitle"/>
+          <include name="ValidateHomePageURL"/>
+          <include name="ValidateHomePageHCMLogo"/>
+          <include name="SetUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.livehcm.testscripts.HomePageTest -->
+    </classes>
+  </test> <!-- HomePageTest(failed) -->
+</suite> <!-- Failed suite [HCM Live Suite] -->

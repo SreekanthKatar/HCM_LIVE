@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="7" passed="6">
+  <reporter-output>
+    <line>
+      <![CDATA[Login Page Title is: Login]]>
+    </line>
+    <line>
+      <![CDATA[LoginPageURL is http://192.168.2.140:8080/hcm/]]>
+    </line>
+    <line>
+      <![CDATA[Phone Logo is Displayed in Login Page]]>
+    </line>
+    <line>
+      <![CDATA[Home Page Title is: HCM]]>
+    </line>
+    <line>
+      <![CDATA[HomePageURL is http://192.168.2.140:8080/hcm/employeeSelfService]]>
+    </line>
+    <line>
+      <![CDATA[HCM Logo is Displayed in Home Page]]>
+    </line>
+  </reporter-output>
+  <suite name="HCM Live Suite" duration-ms="62807" started-at="2018-08-30T04:57:33Z" finished-at="2018-08-30T04:58:36Z">
+    <groups>
+    </groups>
+    <test name="LoginPageTest" duration-ms="25428" started-at="2018-08-30T04:57:33Z" finished-at="2018-08-30T04:57:59Z">
+      <class name="com.livehcm.testscripts.LoginPageTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.livehcm.testscripts.LoginPageTest@eafc191]" name="SetUp" is-config="true" duration-ms="9852" started-at="2018-08-30T04:57:34Z" finished-at="2018-08-30T04:57:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="ValidateLoginPageTitle()[pri:0, instance:com.livehcm.testscripts.LoginPageTest@eafc191]" name="ValidateLoginPageTitle" duration-ms="25" started-at="2018-08-30T04:57:43Z" finished-at="2018-08-30T04:57:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Page Title is: Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateLoginPageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.livehcm.testscripts.LoginPageTest@eafc191]" name="tearDown" is-config="true" duration-ms="640" started-at="2018-08-30T04:57:43Z" finished-at="2018-08-30T04:57:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.livehcm.testscripts.LoginPageTest@eafc191]" name="SetUp" is-config="true" duration-ms="6797" started-at="2018-08-30T04:57:44Z" finished-at="2018-08-30T04:57:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="ValidateLoginPageURL()[pri:1, instance:com.livehcm.testscripts.LoginPageTest@eafc191]" name="ValidateLoginPageURL" duration-ms="21" started-at="2018-08-30T04:57:51Z" finished-at="2018-08-30T04:57:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[LoginPageURL is http://192.168.2.140:8080/hcm/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateLoginPageURL -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.livehcm.testscripts.LoginPageTest@eafc191]" name="tearDown" is-config="true" duration-ms="594" started-at="2018-08-30T04:57:51Z" finished-at="2018-08-30T04:57:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.livehcm.testscripts.LoginPageTest@eafc191]" name="SetUp" is-config="true" duration-ms="6770" started-at="2018-08-30T04:57:51Z" finished-at="2018-08-30T04:57:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="ValidateLoginPagePhoneLogo()[pri:2, instance:com.livehcm.testscripts.LoginPageTest@eafc191]" name="ValidateLoginPagePhoneLogo" duration-ms="121" started-at="2018-08-30T04:57:58Z" finished-at="2018-08-30T04:57:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Phone Logo is Displayed in Login Page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateLoginPagePhoneLogo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.livehcm.testscripts.LoginPageTest@eafc191]" name="tearDown" is-config="true" duration-ms="582" started-at="2018-08-30T04:57:58Z" finished-at="2018-08-30T04:57:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.livehcm.testscripts.LoginPageTest -->
+    </test> <!-- LoginPageTest -->
+    <test name="HomePageTest" duration-ms="37339" started-at="2018-08-30T04:57:59Z" finished-at="2018-08-30T04:58:36Z">
+      <class name="com.livehcm.testscripts.HomePageTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.livehcm.testscripts.HomePageTest@51c8530f]" name="SetUp" is-config="true" duration-ms="11860" started-at="2018-08-30T04:57:59Z" finished-at="2018-08-30T04:58:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="ValidateHomePageTitle()[pri:0, instance:com.livehcm.testscripts.HomePageTest@51c8530f]" name="ValidateHomePageTitle" duration-ms="19" started-at="2018-08-30T04:58:11Z" finished-at="2018-08-30T04:58:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Home Page Title is: HCM]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateHomePageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.livehcm.testscripts.HomePageTest@51c8530f]" name="tearDown" is-config="true" duration-ms="604" started-at="2018-08-30T04:58:11Z" finished-at="2018-08-30T04:58:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.livehcm.testscripts.HomePageTest@51c8530f]" name="SetUp" is-config="true" duration-ms="11751" started-at="2018-08-30T04:58:11Z" finished-at="2018-08-30T04:58:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="ValidateHomePageURL()[pri:1, instance:com.livehcm.testscripts.HomePageTest@51c8530f]" name="ValidateHomePageURL" duration-ms="26" started-at="2018-08-30T04:58:23Z" finished-at="2018-08-30T04:58:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[HomePageURL is http://192.168.2.140:8080/hcm/employeeSelfService]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateHomePageURL -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.livehcm.testscripts.HomePageTest@51c8530f]" name="tearDown" is-config="true" duration-ms="590" started-at="2018-08-30T04:58:23Z" finished-at="2018-08-30T04:58:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.livehcm.testscripts.HomePageTest@51c8530f]" name="SetUp" is-config="true" duration-ms="11823" started-at="2018-08-30T04:58:24Z" finished-at="2018-08-30T04:58:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="ValidateHomePageHCMLogo()[pri:2, instance:com.livehcm.testscripts.HomePageTest@51c8530f]" name="ValidateHomePageHCMLogo" duration-ms="71" started-at="2018-08-30T04:58:36Z" finished-at="2018-08-30T04:58:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[HCM Logo is Displayed in Home Page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateHomePageHCMLogo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.livehcm.testscripts.HomePageTest@51c8530f]" name="tearDown" is-config="true" duration-ms="587" started-at="2018-08-30T04:58:36Z" finished-at="2018-08-30T04:58:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.livehcm.testscripts.HomePageTest -->
+    </test> <!-- HomePageTest -->
+  </suite> <!-- HCM Live Suite -->
+</testng-results>
